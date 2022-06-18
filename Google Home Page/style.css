@@ -1,0 +1,232 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+
+}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /* border: 1px solid red; */
+    height: 60px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar ul{
+    height: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+}
+
+.navbar ul li{
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.circle-shadow:hover{
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.menu-icon,
+.user-icon span {
+    font-size: 18px;
+}
+
+
+.user-icon span{
+    color: white;
+}
+
+.user-icon{
+    background-color: #EF6C00;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* content  */
+.content-section{
+    /* border: 1px solid red; */
+    /* flex-grow: 1; */
+    /* display: flex; */
+    justify-content: row;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+}
+
+button{
+    border: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    /* padding-bottom: 100px; */
+
+}
+
+.logo-img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search-bar:hover {
+    box-shadow: 0px 0px 4px 0px #B5B5B5;
+}
+
+.search-bar img {
+    font-size: 18px;
+    color: red;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: none;
+}
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-btns {
+    margin-top: 20px;
+}
+
+.search-btns button {
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+    background-color: #F2F3F4;
+}
+
+.search-btns button:hover {
+    border: 1px solid lightgray;
+}
+.google-search-btn {
+    width: 120px;
+}
+
+.lucky-search-btn {
+    width: 140px;
+}
+
+.langs {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 1px;
+}
+
+.langs a {
+    margin-left: 4px;
+}
+
+.langs a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #F2F2F2;
+    height: 100px;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;    
+}
+.upper-footer {
+    height: 50%;
+    border-bottom: 1px solid lightgray;
+}
+.lower-footer {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer ul li a {
+    font-size: 14px;
+    color: gray;
+}
+
+
+.lower-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.lower-left-footer {
+    display: flex;
+}
+
+.lower-left-footer li {
+    margin-right: 15px;
+}
+
+
+.lower-right-footer {
+    display: flex;
+}
+
+.lower-right-footer li {
+    margin-left: 15px;
+}
