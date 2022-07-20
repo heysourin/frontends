@@ -23,7 +23,7 @@ const closeModal = () => {
 //console.log(btnsOpenModal); //output getting as an array
 //getting the output of the above thing in new lines
 for (let i = 0; i < btnsOpenModal.length; i++) {
-  btnsOpenModal[i].addEventListener("click", openModal());
+  btnsOpenModal[i].addEventListener("click", openModal);
 }
 
 btnCloseModal.addEventListener("click", closeModal);
